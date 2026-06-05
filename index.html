@@ -1,13 +1,400 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Эстетическая-косметология</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+
 </head>
+
 <body>
     <header>
-        <img src="" alt="">
+        <div class="header">
+            <div class="logo">
+                <a href="#hero">DERMATO</a>
+            </div>
+            <nav>
+                <ul class="header-ul">
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">A sua beleza é única,<br>o tratamento também</h1>
+                <p class="hero-desc">A padronização de tratamentos estéticos gera resultados artificiais. Por isso
+                    analisamos sua pele e realizamos apenas procedimentos personalizados para você.</p>
+                <button class="btn-primary" id="btn-agendar-hero">Agendar Consulta</button>
+            </div>
+            <div class="hero-image-wrap">
+                <div class="hero-image-bg"></div>
+                <img src="images/imagescosmetologist.png" alt="косметолог" class="hero-image">
+            </div>
+        </section>
+
+        <section class="stats-section">
+            <div class="stats">
+                <div class="stats-item">
+                    <span class="stats-number">+3.000</span>
+                    <span class="stats-label">Clientes satisfeitas</span>
+                </div>
+                <div class="stats-divider"></div>
+                <div class="stats-item">
+                    <span class="stats-number">+15</span>
+                    <span class="stats-label">Anos de experiência</span>
+                </div>
+                <div class="stats-divider"></div>
+                <div class="stats-item">
+                    <span class="stats-number">+10</span>
+                    <span class="stats-label">Filiais</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <h2 class="section-title">Tratamentos estéticos</h2>
+            <div class="services-grid">
+                <article class="service-card">
+                    <div class="service-card-icon">
+                        <img src="images/skin_cleansing.png" alt="" aria-hidden="true">
+                    </div>
+                    <div class="service-card-body">
+                        <h3 class="service-card-title">Limpeza de pele</h3>
+                        <p class="service-card-desc">Remoção de cravos e impurezas da pele, proporcionando a renovação
+                            celular e a redução dos poros.</p>
+                    </div>
+                </article>
+                <article class="service-card">
+                    <div class="service-card-icon">
+                        <img src="images/peeling.png" alt="" aria-hidden="true">
+                    </div>
+                    <div class="service-card-body">
+                        <h3 class="service-card-title service-card-title--accent">Peeling</h3>
+                        <p class="service-card-desc">Promove a renovação celular, de forma progressiva, estimulando a
+                            regeneração natural dos tecidos.</p>
+                    </div>
+                </article>
+                <article class="service-card">
+                    <div class="service-card-icon">
+                        <img src="images/radiesse.png" alt="" aria-hidden="true">
+                    </div>
+                    <div class="service-card-body">
+                        <h3 class="service-card-title">Radiesse</h3>
+                        <p class="service-card-desc">Proporciona uma correção imediata de efeitos comuns do
+                            envelhecimento, como flacidez e perda de sustentação da...</p>
+                    </div>
+                </article>
+                <article class="service-card">
+                    <div class="service-card-icon">
+                        <img src="images/non-invasive_lifting.png" alt="" aria-hidden="true">
+                    </div>
+                    <div class="service-card-body">
+                        <h3 class="service-card-title service-card-title--accent">Lifting não invasivo</h3>
+                        <p class="service-card-desc">Tratamento que devolve o tônus à pele e amenizar sinais de
+                            envelhecimento sem demandar internação hospitalar.</p>
+                    </div>
+                </article>
+                <article class="service-card">
+                    <div class="service-card-icon">
+                        <img src="images/lymphatic_drainage.png" alt="" aria-hidden="true">
+                    </div>
+                    <div class="service-card-body">
+                        <h3 class="service-card-title">Drenagem linfática</h3>
+                        <p class="service-card-desc">Ajuda na eliminação de toxinas, melhora o sistema imunológico,
+                            melhora a aparência de celulite.</p>
+                    </div>
+                </article>
+                <article class="service-card">
+                    <div class="service-card-icon">
+                        <img src="images/microneedling.png" alt="" aria-hidden="true">
+                    </div>
+                    <div class="service-card-body">
+                        <h3 class="service-card-title service-card-title--accent">Microagulhamento</h3>
+                        <p class="service-card-desc">Indicado para remover cicatrizes de acne, amenizar estrias,
+                            eliminar rugas, diminuir a flacidez da pele e prevenir a queda de cabelo.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-inner">
+                <div class="about-image-wrap">
+                    <div class="about-image-bg"></div>
+                    <img src="images/dermatologist.png" alt="дерматолог проводит лечение" class="about-image">
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title section-title--left">Tratamentos dermatológicos</h2>
+                    <p class="about-desc">Há alguns anos, quando se falava em tecnologia, ela era associada apenas à
+                        engenharia e à ciência. Hoje a situação é diferente: nossas clientes já desfrutam de diversos
+                        tratamentos modernos, com segurança e rápida recuperação.</p>
+                    <ul class="tech-simple-list">
+                        <li>Ultraformer III</li>
+                        <li>Laser de CO2</li>
+                        <li>Fotona 4D</li>
+                        <li>Reveal Imager</li>
+                    </ul>
+                    <p class="about-desc">Nossa clínica conta com softwares, sistemas e câmeras de alta resolução que
+                        nos ajudam a diagnosticar, mapear e documentar doenças da pele, cabelos e unhas, permitindo um
+                        diagnóstico e tratamento mais preciso.</p>
+                    <button class="btn-primary" id="btn-agendar-about">Agendar Consulta</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq">
+            <div class="faq-inner" id="faq">
+                <div class="faq-list">
+                    <div class="faq-item faq-item--open" data-faq>
+                        <button class="faq-question" aria-expanded="true">
+                            <span>Como se preparar para a consulta</span>
+                            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2.5">
+                                <path d="M18 15l-6-6-6 6" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Anote todas as suas dúvidas caso esqueça na hora da consulta. Deixe as unhas livres de
+                                esmaltes e o rosto limpo, sem maquiagem para não interferir na análise.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" data-faq>
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Com que frequência devo ir ao dermatologista?</span>
+                            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2.5">
+                                <path d="M6 9l6 6 6-6" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer" hidden>
+                            <p>Recomendamos visitas anuais para exames preventivos. Se você tiver quaisquer condições em
+                                particular, a frequência pode ser maior dependendo da orientação.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" data-faq>
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Preciso de encaminhamento para consulta</span>
+                            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2.5">
+                                <path d="M6 9l6 6 6-6" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer" hidden>
+                            <p>Não há necessidade de encaminhamento para consultas privadas. Para consultas de plano,
+                                verifique os requisitos do seu convite.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" data-faq>
+                        <button class="faq-question" aria-expanded="false">
+                            <span>O que um dermatologista faz em uma consulta?</span>
+                            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2.5">
+                                <path d="M6 9l6 6 6-6" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer" hidden>
+                            <p>O dermatologista avalia a condição da pele, cabelo e unhas. Realiza uma inspeção visual,
+                                pode solicitar exames adicionais e indicar o tratamento adequado.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" data-faq>
+                        <button class="faq-question" aria-expanded="false">
+                            <span>O que devo esperar de uma análise de pele?</span>
+                            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2.5">
+                                <path d="M6 9l6 6 6-6" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer" hidden>
+                            <p>A análise da pele envolve a avaliação do tipo, textura, hidratação e problemas
+                                específicos. Com base nisso, desenvolvemos um plano de tratamento individual.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-image-wrap">
+                    <div class="faq-image-bg"></div>
+                    <img src="images/coconut.png" alt="Средство по уходу за кожей" class="faq-image">
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews" id="reviews">
+            <h2 class="section-title reviews-title">O que as nossas clientes dizem?</h2>
+
+            <div class="reviews-slider">
+                <button class="reviews-nav reviews-nav--prev" id="reviewsPrev" aria-label="Anterior">‹</button>
+
+                <div class="reviews-track" id="reviewsTrack">
+                    <article class="review-card">
+                        <div class="review-card-image">
+                            <img src="images/woman_comment_1.png" alt="Daiene Rodrigues" loading="lazy">
+                        </div>
+                        <div class="review-card-content">
+                            <h3 class="review-card-name">Daiene Rodrigues</h3>
+                            <div class="review-card-underline"></div>
+                            <p class="review-card-text">Really good quality, lovely packaging &amp; delivery. Love it!
+                            </p>
+                            <div class="review-card-stars">★★★★★</div>
+                        </div>
+                    </article>
+
+                    <article class="review-card">
+                        <div class="review-card-image">
+                            <img src="images/woman_comment_2.png" alt="Débora Souza" loading="lazy">
+                        </div>
+                        <div class="review-card-content">
+                            <h3 class="review-card-name">Débora Souza</h3>
+                            <div class="review-card-underline"></div>
+                            <p class="review-card-text">Really good quality, lovely packaging &amp; delivery. Love it!
+                            </p>
+                            <div class="review-card-stars">★★★★★</div>
+                        </div>
+                    </article>
+
+                </div>
+
+                <button class="reviews-nav reviews-nav--next" id="reviewsNext" aria-label="Próximo">›</button>
+            </div>
+
+            <div class="reviews-dots" id="reviewsDots">
+                <button class="reviews-dot reviews-dot--active" data-index="0" aria-label="Slide 1"></button>
+                <button class="reviews-dot" data-index="1" aria-label="Slide 2"></button>
+                <button class="reviews-dot" data-index="2" aria-label="Slide 3"></button>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="page-footer" id="contact">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#hero" class="footer-logo">DERMATO</a>
+                </div>
+                <div class="footer-contact">
+                    <h3 class="footer-contact-title">CONTATO</h3>
+                    <a href="tel:+5521999999999" class="footer-link">+55 21 9999-9999</a>
+                    <a href="mailto:contato@dermato.com.br" class="footer-link">contato@dermato.com.br</a>
+                    <div class="footer-divider"></div>
+                    <p class="footer-address">Rua São Paulo, 45 – Americana</p>
+                    <p class="footer-address">Americana – SP</p>
+                    <div class="footer-divider"></div>
+                    <div class="footer-socials">
+                        <img src="images/Instagram.svg" alt="Instagram">
+                        <img src="images/fasebook.svg" alt="Facebook">
+                        <img src="images/YouTube.svg" alt="YouTube">
+                    </div>
+                </div>
+                <div class="footer-info">
+                    <h3 class="footer-info-title">INFORMAÇÕES</h3>
+                    <ul class="footer-info-list">
+                        <li><a href="#services" class="footer-link">Procedimentos</a></li>
+                        <li><a href="#contact" class="footer-link">Contato</a></li>
+                        <li><a href="#" class="footer-link">Termos e Condições</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copy">Dermato – Alguns direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="modal" id="modalRegister" hidden>
+        <div class="modal-overlay" id="modalRegisterOverlay"></div>
+        <div class="modal-dialog">
+            <button class="modal-close" id="modalRegisterClose">&times;</button>
+            <div class="modal-body">
+                <h2 class="modal-title">Registo</h2>
+                <p class="modal-subtitle">Crie uma conta para agendar procedimentos</p>
+                <div class="form">
+                    <div class="form-group">
+                        <label class="form-label" for="regName">Nome</label>
+                        <input type="text" id="regName" class="form-input" placeholder="Seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="regEmail">Email</label>
+                        <input type="email" id="regEmail" class="form-input" placeholder="@mail.com">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="regPassword">Senha</label>
+                        <input type="password" id="regPassword" class="form-input" placeholder="••••••">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="regConfirm">Confirmar senha</label>
+                        <input type="password" id="regConfirm" class="form-input" placeholder="••••••">
+                    </div>
+                    <button type="button" class="btn-primary btn-full" id="btnRegisterSubmit">Inscrever-se</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const modalRegister = document.getElementById("modalRegister");
+            const overlayRegister = document.getElementById("modalRegisterOverlay");
+            const closeRegister = document.getElementById("modalRegisterClose");
+
+            function openRegisterModal() {
+                if (modalRegister) modalRegister.hidden = false;
+            }
+            function closeRegisterModal() {
+                if (modalRegister) modalRegister.hidden = true;
+            }
+
+            const btnHero = document.getElementById("btn-agendar-hero");
+            const btnAbout = document.getElementById("btn-agendar-about");
+
+            if (btnHero) btnHero.onclick = openRegisterModal;
+            if (btnAbout) btnAbout.onclick = openRegisterModal;
+
+            if (closeRegister) closeRegister.onclick = closeRegisterModal;
+            if (overlayRegister) overlayRegister.onclick = closeRegisterModal;
+
+            const submitBtn = document.getElementById("btnRegisterSubmit");
+            if (submitBtn) {
+                submitBtn.onclick = function () {
+                    const name = document.getElementById("regName").value.trim();
+                    const email = document.getElementById("regEmail").value.trim();
+                    const password = document.getElementById("regPassword").value;
+                    const confirm = document.getElementById("regConfirm").value;
+
+                    if (!name || !email || !password || !confirm) {
+                        alert("Por favor, preencha todos os campos");
+                        return;
+                    }
+                    if (password !== confirm) {
+                        alert("As senhas não coincidem");
+                        return;
+                    }
+                    if (password.length < 4) {
+                        alert("A senha deve ter pelo menos 4 caracteres");
+                        return;
+                    }
+                    alert(`Obrigado por se inscrever, ${name}!`);
+                    closeRegisterModal();
+                    document.getElementById("regName").value = "";
+                    document.getElementById("regEmail").value = "";
+                    document.getElementById("regPassword").value = "";
+                    document.getElementById("regConfirm").value = "";
+                };
+            }
+        });
+    </script>
 </body>
+
 </html>
