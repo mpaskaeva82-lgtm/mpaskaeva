@@ -6,12 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Эстетическая-косметология</title>
     <link rel="stylesheet" href="styles/styles.css">
-
 </head>
 
 <body>
     <header>
-        <div class="header">
+        <div class="container header">
             <div class="logo">
                 <a href="#hero">DERMATO</a>
             </div>
@@ -26,7 +25,7 @@
         </div>
     </header>
 
-    <main>
+    <main class="container">
         <section class="hero" id="hero">
             <div class="hero-content">
                 <h1 class="hero-title">A sua beleza é única,<br>o tratamento também</h1>
@@ -272,14 +271,11 @@
                 <button class="reviews-dot" data-index="3" aria-label="Slide 4"></button>
                 <button class="reviews-dot" data-index="4" aria-label="Slide 5"></button>
             </div>
-
         </section>
-
-
     </main>
 
     <footer class="page-footer" id="contact">
-        <div class="footer-container">
+        <div class="container footer-container">
             <div class="footer-grid">
                 <div class="footer-brand">
                     <a href="#hero" class="footer-logo">DERMATO</a>
@@ -319,7 +315,6 @@
         </div>
     </footer>
 
-
     <div class="modal" id="modalRegister" hidden>
         <div class="modal-overlay" id="modalRegisterOverlay"></div>
         <div class="modal-dialog">
@@ -351,7 +346,6 @@
     </div>
 
     <script src="js/script.js"></script>
-
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const modalRegister = document.getElementById("modalRegister");
